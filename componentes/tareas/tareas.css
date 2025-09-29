@@ -1,0 +1,88 @@
+.section {
+  width: 90%;              
+  max-width: 550px;       
+  margin: 75px auto;
+  padding: 2rem;            
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #ebe7e4cc;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section input {
+  width: 100%;           
+  min-height: 2.5rem;
+  font-size: 1rem;         
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  padding: 0.6rem;
+  box-sizing: border-box;   
+}
+
+.section input:focus {
+  border-color: #8df3b4;
+  box-shadow: 0 0 5px rgba(76, 239, 144, 0.5);
+}
+
+.section button {
+  width: 100%;              
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #8df3b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.section button:hover {
+  background: #3adb7d;
+}
+
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-tareas li {
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-size: 0.9rem;       
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;       
+  gap: 0.5rem;
+}
+
+.lista-tareas li:nth-child(even) {
+  background: #f1faff;
+}
+
+.btn-eliminar {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: #e74c3c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-eliminar:hover {
+  background: #c0392b;
+}
